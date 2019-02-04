@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import ProductList from './components/ProductList'
 import Default from './components/Default'
 import Cart from './components/Cart'
-import Details from './components/Details'
+import Details from './components/product/ProductDetails'
 
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={ProductList}/>
           <Route path="/details" component={Details}/>
-          <Route path="/store" component={Cart}/>
+          <Route path="/cart" component={Cart}/>
           <Route component={Default}/>
         </Switch>
       </React.Fragment>
