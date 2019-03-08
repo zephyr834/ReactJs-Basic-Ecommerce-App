@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css' 
-import Navbar from './components/Navbar'
-import ProductList from './components/ProductList'
-import NotFound from './components/NotFound'
-import Cart from './components/Cart'
+import Navbar from './components/common/Navbar'
+import ProductList from './components/product/ProductList'
+import NotFound from './components/common/NotFound'
+import Cart from './components/common/Cart'
 import ProductDetails from './components/product/ProductDetails'
 
 
