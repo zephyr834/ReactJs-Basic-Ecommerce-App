@@ -1,14 +1,14 @@
 :root {
   --mainBlue: hsl(216, 68%, 30%);
   --lightBlue: #0093e9;
-  --mainWhite: #f3f3f3f5;
+  --mainWhite: #e9ecef;
   --mainDark: #232528;
   --mainYellow: #f0ed32;
 }
 
 body {
   font-family: 'Helvetica', sans-serif !important;
-  background: var(--mainwhite) !important;
+  background-color: #edeef0ab !important;
   color: var(--mainDark) !important;
 }
 
